@@ -74,3 +74,13 @@ onehot_result = onehot_encoder.fit_transform(onehot_data)
 dummy_data = asarray([['red'], ['green'], ['blue']])
 dummy_encoder = OneHotEncoder(drop='first', sparse=False)
 dummy_result = dummy_encoder.fit_transform(dummy_data)
+
+# %%
+
+### Binarization ###
+
+from sklearn.preprocessing import Binarizer
+import pandas
+import numpy
+
+
