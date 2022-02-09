@@ -1,4 +1,5 @@
 # %%
+
 import pandas
 from sklearn import tree
 import pydotplus
@@ -42,3 +43,5 @@ dtree = DecisionTreeClassifier()
 dtree = dtree.fit(X, y)
 tree.plot_tree(dtree)
 plt.show()
+
+#%%
