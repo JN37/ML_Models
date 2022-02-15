@@ -14,7 +14,7 @@ from kneed import KneeLocator
 # %% Generate and plot data
 
 # Generate
-X, y = make_moons(n_samples=500, noise=0.10)
+X, y = make_moons(n_samples=1000, noise=0.10)
 data = pd.DataFrame(X, y)
 data = data.rename(columns={0: "X1", 1: "X2"})
 
