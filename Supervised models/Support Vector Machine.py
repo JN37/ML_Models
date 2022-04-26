@@ -1,7 +1,5 @@
 # && Import
 
-# Example from https://www.datacamp.com/community/tutorials/svm-classification-scikit-learn-python
-
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn import svm

@@ -1,7 +1,5 @@
 # %% Import libs
 
-# Example from https://www.datacamp.com/community/tutorials/random-forests-classifier-python
-
 from sklearn import datasets
 import pandas as pd
 from sklearn.model_selection import train_test_split

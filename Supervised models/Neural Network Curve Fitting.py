@@ -26,7 +26,7 @@ model.summary()
 
 model.fit(x_data, y_data, epochs=100, verbose=1)
 
-# %% Predit output and plot it
+# %% Predict output and plot it
 y_predicted = model.predict(x_data)
 
 plt.scatter(x_data[::1], y_data[::1])

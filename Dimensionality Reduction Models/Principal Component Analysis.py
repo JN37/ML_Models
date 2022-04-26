@@ -1,7 +1,5 @@
 # %%
 
-# Example from https://www.datacamp.com/community/tutorials/principal-component-analysis-in-python
-
 import numpy as np
 import pandas as pd
 from sklearn.datasets import load_breast_cancer

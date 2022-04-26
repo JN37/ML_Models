@@ -1,7 +1,5 @@
 # %%
 
-# Example from https://towardsdatascience.com/a-short-tutorial-on-naive-bayes-classification-with-implementation-2f69183d8ce1
-
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.naive_bayes import CategoricalNB

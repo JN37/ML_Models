@@ -1,7 +1,5 @@
 # %%
 
-# Example from https://stackabuse.com/k-nearest-neighbors-algorithm-in-python-and-scikit-learn/
-
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd

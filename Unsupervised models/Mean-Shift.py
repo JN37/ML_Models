@@ -1,7 +1,5 @@
 # %% Import
 
-# Example from https://analyticsindiamag.com/hands-on-tutorial-on-mean-shift-clustering-algorithm/
-
 import numpy as np
 from sklearn.cluster import MeanShift
 from sklearn.datasets import make_blobs
