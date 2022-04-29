@@ -36,7 +36,7 @@ X_test = scaler.transform(X_test)
 
 # %%
 
-# Set up and train model
+# Set up and train the model
 
 classifier = KNeighborsClassifier(n_neighbors=5)
 classifier.fit(X_train, y_train)

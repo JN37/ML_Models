@@ -1,4 +1,4 @@
-# %% Different ways of applying SVD
+# %% Different ways of applying Singular Value Decomposition
 
 # %% Using Numpy
 

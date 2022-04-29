@@ -1,5 +1,6 @@
 # %%
-### Identifying and handling missing values ###
+
+### Identify and handle missing values ###
 
 import numpy as np
 
@@ -65,7 +66,6 @@ onehot_data = asarray([['red'], ['green'], ['blue']])
 onehot_encoder = OneHotEncoder(sparse=False)
 onehot_result = onehot_encoder.fit_transform(onehot_data)
 
-
 # Dummy Variable Encoding
 
 # Same as OneHot, but drops one number as it is enough to represent "red" with [0, 0]
@@ -82,6 +82,3 @@ dummy_result = dummy_encoder.fit_transform(dummy_data)
 from sklearn.preprocessing import Binarizer
 import pandas
 import numpy
-
-
-

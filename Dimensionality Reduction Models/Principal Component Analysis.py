@@ -35,7 +35,7 @@ breast_dataset.columns = features_labels
 breast_dataset['label'].replace(0, 'Benign', inplace=True)
 breast_dataset['label'].replace(1, 'Malignant', inplace=True)
 
-# %% Normalize
+# %% Normalizing
 
 # First, normalize the data
 x = breast_dataset.loc[:, features].values
